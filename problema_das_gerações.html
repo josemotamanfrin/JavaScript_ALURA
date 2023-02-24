@@ -1,0 +1,24 @@
+<meta charset="UTF-8">
+<script>
+
+	function pulaLinha(){
+
+		document.write("<br>");
+	}
+
+	function mostra(frase){
+
+		document.write(frase);
+		pulaLinha();
+	}
+	var cadaGeração = 28
+	var primeiraGeração = 1500
+	var hoje = 2022
+	var anos = hoje - primeiraGeração
+	var gerações = anos / cadaGeração
+
+	mostra ("Quantas gerações se passaram desde 1500 ? " );
+	mostra (Math.round (gerações));
+
+
+	</script>
